@@ -1,7 +1,7 @@
 /*css to index.html   <link rel="stylesheet" href="styles.css">*/
 h1 {text-align: center;}
 
-name.uppercase {
+h1, name.uppercase {
     text-transform: uppercase;
 }
 
