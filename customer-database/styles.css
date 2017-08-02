@@ -1,0 +1,42 @@
+/*css to index.html   <link rel="stylesheet" href="styles.css">*/
+h1 {text-align: center;}
+
+name.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: white;
+}
+
+div {display: inline-block;
+    width: 20%;
+    text-align: center;
+  }
+
+#alias {
+  text-transform: uppercase;
+  }
+
+#street, #location {
+  text-transform: capitalize;
+}
+
+#email {color: silver;}
+
+#street, #location, #cell {
+  color: grey;
+}
+
+/*courtesy CSS Tricks*/
+#ssn {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(29,167,0,0.5);
+}
+
+#ssn:hover {
+  color: green;
+
+  /* HOVER ON */
+   -webkit-transition: border-radius 2s;
+}
