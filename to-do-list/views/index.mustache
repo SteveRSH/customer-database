@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <body>
+<form method = "post" action="/mylist">
+  <label for="do_list">To Do List:</label> <input type = "text" name = "to_do" />
+  <input type = "submit" value = "enter">
+</form>
+<br>
+<h3>JUST DO IT LIST</h3>
+{{#completed}}
+<!--Template-->
+
+<ul>
+  <li>
+  <input type="checkbox"> {{ . }} </input>
+  </li>
+</ul>
+
+{{/completed}}
+
+  <body>
+    </html>
